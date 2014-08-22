@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wincompose.portable</id>
+    <title>WinCompose (portable)</title>
+    <version>0.6.11</version>
+    <authors>Sam Hocevar</authors>
+    <owners>Marcin Badurowicz</owners>
+    <summary>WinCompose - A compose key for Windows</summary>
+    <description>A compose key allows to easily write special characters such as é ž à ō û ø ☺ ¤ ∅ « ♯ ⸘ Ⓚ ㊷ ♪ ♬ using short and often very intuitive key combinations. For instance, ö is obtained using o + ", and ♥ is obtained using < + 3. I wrote WinCompose because I found none of the alternatives (FreeCompose, CKFW, AllChars or Unichars) to be satisfying.</description>
+    <projectUrl>https://github.com/SamHocevar/wincompose</projectUrl>
+    <tags>wincompose compose composekey keyboard admin</tags>
+    <copyright>Copyright (c) 2013-2014 Sam Hocevar <sam@hocevar.net></copyright>
+    <licenseUrl>http://www.wtfpl.net/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/ktos/chocolatey-packages/master/brewtarget/brewtarget.png</iconUrl>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
