@@ -13,8 +13,8 @@
     <tags>wincompose compose composekey keyboard admin</tags>
     <copyright>Copyright c) 2013-2014 Sam Hocevar</copyright>
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://raw.github.com/ktos/chocolatey-packages/master/brewtarget/brewtarget.png</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
+	<iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
     <releaseNotes></releaseNotes>
 	<dependencies>
 		<dependency id="wincompose.install" version="[0.6.11]" />
