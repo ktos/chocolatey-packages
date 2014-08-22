@@ -8,10 +8,10 @@
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
-    <description>A compose key allows to easily write special characters such as é ž à ō û ø ☺ ¤ ∅ « ♯ ⸘ Ⓚ ㊷ ♪ ♬ using short and often very intuitive key combinations. For instance, ö is obtained using o + ", and ♥ is obtained using < + 3. I wrote WinCompose because I found none of the alternatives (FreeCompose, CKFW, AllChars or Unichars) to be satisfying.</description>
+    <description>A compose key allows to easily write special characters such as é ž à ō û ø ☺ ¤ ∅ « ♯ ⸘ Ⓚ ㊷ ♪ ♬ using short and often very intuitive key combinations. For instance, ö is obtained using o + ", and ♥ is obtained using &lt; + 3. I wrote WinCompose because I found none of the alternatives (FreeCompose, CKFW, AllChars or Unichars) to be satisfying.</description>
     <projectUrl>https://github.com/SamHocevar/wincompose</projectUrl>
     <tags>wincompose compose composekey keyboard admin</tags>
-    <copyright>Copyright (c) 2013-2014 Sam Hocevar <sam@hocevar.net></copyright>
+    <copyright>Copyright (c) 2013-2014 Sam Hocevar</copyright>
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>https://raw.github.com/ktos/chocolatey-packages/master/brewtarget/brewtarget.png</iconUrl>-->
