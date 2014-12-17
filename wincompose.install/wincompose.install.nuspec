@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.install</id>
     <title>WinCompose (install)</title>
-    <version>0.6.11</version>
+    <version>0.6.13</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
