@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose</id>
     <title>WinCompose</title>
-    <version>0.6.13</version>
+    <version>0.7.0</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -17,7 +17,7 @@
 	<iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
     <releaseNotes></releaseNotes>
 	<dependencies>
-		<dependency id="wincompose.install" version="[0.6.13]" />
+		<dependency id="wincompose.install" version="[0.7.0]" />
 	</dependencies>
   </metadata>
   <files>
