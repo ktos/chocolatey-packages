@@ -15,7 +15,7 @@
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes>ignoring creating shim for a moment, which means you cannot start wincompose from your PATH - due to fact wincompose requires current dir to be properly set up</releaseNotes>
+    <releaseNotes></releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
