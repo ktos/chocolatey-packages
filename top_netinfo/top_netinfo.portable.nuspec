@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>top_netinfo.portable</id>
+    <title>top_netinfo (portable)</title>
+    <version>3.65</version>
+    <authors>janek222</authors>
+    <owners>Marcin Badurowicz</owners>
+    <summary>top_netinfo - an application to manage dial-up connections</summary>
+    <description>Allows connecting and disconnecting dial-up connections, managing SMS, metering connection rate and transfer, allows removing PIN code requirement, sending any AT command to modem and many more.</description>
+    <projectUrl>http://www.sklepy.ehost.pl/</projectUrl>
+    <tags>top netinfo rdis ras wwan mobile</tags>
+    <copyright>Copyright (c) 2007-2015 janek222</copyright>
+    <licenseUrl>http://www.sklepy.ehost.pl/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/top_netinfo/top_netinfo.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
