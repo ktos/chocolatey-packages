@@ -1,6 +1,6 @@
 ﻿$packageName = 'wincompose.install'
 $installerType = 'EXE'
-$url = 'https://github.com/samhocevar/wincompose/releases/download/v0.7.2/WinCompose-Setup-0.7.2.exe'
+$url = 'https://github.com/samhocevar/wincompose/releases/download/v0.7.4/WinCompose-Setup-0.7.4.exe'
 
 $silentArgs = '/SP- /VERYSILENT /NORESTART /SUPPRESSMSGBOXES'
 $silentArgsUninstall = '/VERYSILENT /NORESTART'
