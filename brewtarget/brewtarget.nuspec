@@ -15,7 +15,8 @@
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/ktos/chocolatey-packages/master/brewtarget/brewtarget.png</iconUrl>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>http://www.brewtarget.org/changelog.html</releaseNotes>
+	<packageSourceUrl>https://github.com/ktos/chocolatey-packages/tree/master/brewtarget</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
