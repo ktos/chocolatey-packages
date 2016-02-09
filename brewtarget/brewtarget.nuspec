@@ -4,14 +4,14 @@
   <metadata>
     <id>brewtarget</id>
     <title>Brewtarget</title>
-    <version>2.1.0</version>
+    <version>2.3.0</version>
     <authors>Peter Buelow, Dan Cavanagh, Mik Firestone, Philip G. Lee</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>Brewtarget - free brewing software</summary>
     <description>Brewtarget is FREE brewing software, and an open source beer recipe creation tool available for Linux, Mac, and Windows. It automatically calculates color, bitterness, and other parameters for you while you drag and drop ingredients into the recipe. Brewtarget also has many other tools such as priming sugar calculators, OG correction help, and a unique mash designing tool. It also can export and import recipes in BeerXML, allowing you to easily share recipes with friends who use BeerSmith or other programs. All of this means that Brewtarget is your single, free, go-to tool when crafting your beer recipes. </description>
     <projectUrl>http://www.brewtarget.org/</projectUrl>
     <tags>brewtarget beer admin</tags>
-    <copyright>Copyright (C) 2009-2013 Peter Buelow, Dan Cavanagh, Mik Firestone, Philip G. Lee</copyright>
+    <copyright>Copyright (C) 2009-2016 Peter Buelow, Dan Cavanagh, Mik Firestone, Philip G. Lee</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/ktos/chocolatey-packages/master/brewtarget/brewtarget.png</iconUrl>
