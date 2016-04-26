@@ -4,18 +4,23 @@
   <metadata>
     <id>wincompose.install</id>
     <title>WinCompose (install)</title>
-    <version>0.7.4</version>
+    <version>0.7.6</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
     <description>A compose key allows to easily write special characters such as é ž à ō û ø ☺ ¤ ∅ « ♯ ⸘ Ⓚ ㊷ ♪ ♬ using short and often very intuitive key combinations. For instance, ö is obtained using o + ", and ♥ is obtained using &lt; + 3. I wrote WinCompose because I found none of the alternatives (FreeCompose, CKFW, AllChars or Unichars) to be satisfying.</description>
     <projectUrl>https://github.com/SamHocevar/wincompose</projectUrl>
     <tags>wincompose compose composekey keyboard admin</tags>
-    <copyright>Copyright (c) 2013-2014 Sam Hocevar</copyright>
+    <copyright>Copyright (C) 2013-2016 Sam Hocevar</copyright>
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>This release provides important usability and compatibility improvements:
+
+    * WinCompose now detects keyboard layout changes and adapts instantly
+    * keyboards with an AltGr key are handled properly, even when it acts as the Compose key.
+    * sequences containing the compose key itself are now possible, for instance ComposeComposecake for :cake:.
+	</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
