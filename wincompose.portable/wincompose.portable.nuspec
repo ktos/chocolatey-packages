@@ -21,6 +21,9 @@
     * keyboards with an AltGr key are handled properly, even when it acts as the Compose key.
     * sequences containing the compose key itself are now possible, for instance ComposeComposecake for :cake:.
 	</releaseNotes>
+	<projectSourceUrl>https://github.com/samhocevar/wincompose/</projectSourceUrl>
+	<packageSourceUrl>https://github.com/ktos/chocolatey-packages/tree/master/wincompose.portable</packageSourceUrl>
+	<bugTrackerUrl>https://github.com/samhocevar/wincompose/issues</bugTrackerUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
