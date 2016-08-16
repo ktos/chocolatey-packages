@@ -4,7 +4,7 @@
   <metadata>
     <id>brewtarget</id>
     <title>Brewtarget</title>
-    <version>2.3.0</version>
+    <version>2.3.0.20160816</version>
     <authors>Peter Buelow, Dan Cavanagh, Mik Firestone, Philip G. Lee</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>Brewtarget - free brewing software</summary>
@@ -15,7 +15,7 @@
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/ktos/chocolatey-packages/master/brewtarget/brewtarget.png</iconUrl>
-    <releaseNotes>http://www.brewtarget.org/changelog.html</releaseNotes>
+    <releaseNotes>Chocolatey-only release: added checksum to installer</releaseNotes>
 	<packageSourceUrl>https://github.com/ktos/chocolatey-packages/tree/master/brewtarget</packageSourceUrl>
   </metadata>
   <files>
