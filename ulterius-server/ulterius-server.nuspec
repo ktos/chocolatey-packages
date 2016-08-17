@@ -17,8 +17,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>Ulterius Server</title>
     <authors>Andrew Sampson Evan Banyash</authors>
     
-    <projectUrl>https://ulterius.io/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/ktos/chocolatey-packages/ulterius-server/master/ulterius-server.png</iconUrl>
+    <projectUrl>https://ulterius.io/</projectUrl>	
+    <iconUrl>http://cdn.rawgit.com/ktos/chocolatey-packages/master/ulterius-server/ulterius.png</iconUrl>
     <copyright>Copyright (C) 2016 Ulterius</copyright>    
     <licenseUrl>https://github.com/Ulterius/server/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
