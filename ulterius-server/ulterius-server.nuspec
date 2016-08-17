@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Reference. Chocolatey uses a special version of NuGet.Core that allows us to do more than was initially possible. As such there are certain things to be aware of:
+
+* the package xmlns schema url may cause issues with nuget.exe
+* Any of the following elements can ONLY be used by choco tools - projectSourceUrl, docsUrl, mailingListUrl, bugTrackerUrl, packageSourceUrl, provides, conflicts, replaces 
+* nuget.exe can still install packages with those elements but they are ignored. Any authoring tools or commands will error on those elements 
+-->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ulterius-server</id>    
+    <version>1.0.0.2</version>
+    <packageSourceUrl>https://github.com/ktos/chocolatey-packages/ulterius-server</packageSourceUrl>    
+    <owners>Marcin Badurowicz</owners>
+    
+    <title>Ulterius Server</title>
+    <authors>Andrew Sampson Evan Banyash</authors>
+    
+    <projectUrl>https://ulterius.io/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/ktos/chocolatey-packages/ulterius-server/master/ulterius-server.png</iconUrl>
+    <copyright>Copyright (C) 2016 Ulterius</copyright>    
+    <licenseUrl>https://github.com/Ulterius/server/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Ulterius/server</projectSourceUrl>
+    
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/Ulterius/server/issues/</bugTrackerUrl>
+    
+    <tags>ulterius server admin remote desktop access</tags>
+    <summary>Ulterius: Easy Remote Management</summary>
+    <description>Ulterius is a tool that allows unfettered access to a Windows system via a remote web interface. This program allows you to start and kill processes, monitor system performance, manage your files, and much more, all from your web browser.
+    
+    Ulterius's goal is to provide a powerful tool for managing computers remotely, while remaining incredibly easy to use. A user needs only to install Ulterius, visit the IP address of the machine, log in with their existing in formation, and they'll hav e a wide  array of tools available to themthrough any device with a web browser. These utilities include remote desktop, file browsing and transfer, hardware info, and much more. In addition to the web client, native mobile appsare planned for the future.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    
+    <dependencies>
+      <!--<dependency id="dotnet4.6.1" />-->
+    </dependencies>
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->    
+  </metadata>
+  <files>    
+    <file src="tools\**" target="tools" />    
+  </files>
+</package>
