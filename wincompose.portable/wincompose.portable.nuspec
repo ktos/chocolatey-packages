@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.portable</id>
     <title>WinCompose (portable)</title>
-    <version>0.7.6</version>
+    <version>0.7.7-beta20170511</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>

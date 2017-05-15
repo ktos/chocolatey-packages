@@ -1,6 +1,7 @@
 ﻿$packageName = 'wincompose.install'
 $installerType = 'EXE'
-$url = 'https://github.com/samhocevar/wincompose/releases/download/v0.7.6/WinCompose-Setup-0.7.6.exe'
+$url = 'https://github.com/samhocevar/wincompose/releases/download/v0.7.7beta20170511/WinCompose-Setup-0.7.7beta20170511.exe'
+$checksum = 'E5ABD3DB5CFD946B938FC22E30B45981AFCA20FCD6960454D6EDFAC9AE05BB40'
 
 $silentArgs = '/SP- /VERYSILENT /NORESTART /SUPPRESSMSGBOXES'
 $silentArgsUninstall = '/VERYSILENT /NORESTART'
@@ -15,4 +16,4 @@ if (Test-Path $uninstallPath) {
 	Start-ChocolateyProcessAsAdmin "$silentArgsUninstall" $uninstallFilePath
 }
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes -Checksum $checksum -ChecksumType "sha256"
