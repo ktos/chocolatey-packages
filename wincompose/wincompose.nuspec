@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose</id>
     <title>WinCompose</title>
-    <version>0.7.7-beta20170511</version>
+    <version>0.7.7</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -15,14 +15,11 @@
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>    
 	<iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes>This release provides important usability and compatibility improvements:
-
-    * WinCompose now detects keyboard layout changes and adapts instantly
-    * keyboards with an AltGr key are handled properly, even when it acts as the Compose key.
-    * sequences containing the compose key itself are now possible, for instance ComposeComposecake for :cake:.
+    <releaseNotes>
+		* This is a huge release.
 	</releaseNotes>
 	<dependencies>
-		<dependency id="wincompose.install" version="[0.7.7-beta20170511]" />
+		<dependency id="wincompose.install" version="[0.7.7]" />
 	</dependencies>
   </metadata>
   <files>
