@@ -15,6 +15,7 @@
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
+    <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
     <releaseNotes>
 		This is a huge release.
 	</releaseNotes>

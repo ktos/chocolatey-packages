@@ -13,7 +13,8 @@
     <tags>wincompose compose composekey keyboard admin</tags>
     <copyright>Copyright (C) 2013-2017 Sam Hocevar</copyright>
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
 	<iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
     <releaseNotes>
 		* This is a huge release.
