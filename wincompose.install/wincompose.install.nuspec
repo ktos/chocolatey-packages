@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.install</id>
     <title>WinCompose (install)</title>
-    <version>0.7.7</version>
+    <version>0.8.0</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -14,10 +14,14 @@
     <copyright>Copyright (C) 2013-2016 Sam Hocevar</copyright>
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
     <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
+	<iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
     <releaseNotes>
-		This is a huge release.
+		* compatibility fixes for Notepad++ and LibreOffice
+		* better support for AltGr being used both as a compose key and in its usual role
+		* fixes for the Alt state being locked permantently
+		* better support for German capital eszett (ẞ)
+		* support for older .NET versions (3.5 and some 3.0)
 	</releaseNotes>
   </metadata>
   <files>
