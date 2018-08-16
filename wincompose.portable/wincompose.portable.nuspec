@@ -4,23 +4,22 @@
   <metadata>
     <id>wincompose.portable</id>
     <title>WinCompose (portable)</title>
-    <version>0.8.0</version>
+    <version>0.8.1</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
     <description>A compose key allows to easily write special characters such as é ž à ō û ø ☺ ¤ ∅ « ♯ ⸘ Ⓚ ㊷ ♪ ♬ using short and often very intuitive key combinations. For instance, ö is obtained using o + ", and ♥ is obtained using &lt; + 3. I wrote WinCompose because I found none of the alternatives (FreeCompose, CKFW, AllChars or Unichars) to be satisfying.</description>
     <projectUrl>https://github.com/SamHocevar/wincompose</projectUrl>
     <tags>wincompose compose composekey keyboard admin</tags>
-    <copyright>Copyright (c) 2013-2016 Sam Hocevar</copyright>
+    <copyright>Copyright (c) 2013-2018 Sam Hocevar</copyright>
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>    
-    <releaseNotes>
-		* compatibility fixes for Notepad++ and LibreOffice
-		* better support for AltGr being used both as a compose key and in its usual role
-		* fixes for the Alt state being locked permantently
-		* better support for German capital eszett (ẞ)
-		* support for older .NET versions (3.5 and some 3.0)
+<releaseNotes>
+		Bugfix release, with a few additional features:
+
+    * the user can disable built-in rules
+    * BackSpace, Tab, Home and several such keys can now be used in sequences
 	</releaseNotes>
 	<projectSourceUrl>https://github.com/samhocevar/wincompose/</projectSourceUrl>
 	<packageSourceUrl>https://github.com/ktos/chocolatey-packages/tree/master/wincompose.portable</packageSourceUrl>
