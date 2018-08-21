@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.portable</id>
     <title>WinCompose (portable)</title>
-    <version>0.8.1</version>
+    <version>0.8.2</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -15,11 +15,8 @@
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>    
-<releaseNotes>
-		Bugfix release, with a few additional features:
-
-    * the user can disable built-in rules
-    * BackSpace, Tab, Home and several such keys can now be used in sequences
+    <releaseNotes>
+		Fix a regression in generic Unicode input and several minor bugs.
 	</releaseNotes>
 	<projectSourceUrl>https://github.com/samhocevar/wincompose/</projectSourceUrl>
 	<packageSourceUrl>https://github.com/ktos/chocolatey-packages/tree/master/wincompose.portable</packageSourceUrl>

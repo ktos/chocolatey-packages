@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose</id>
     <title>WinCompose</title>
-    <version>0.8.1</version>
+    <version>0.8.2</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -17,13 +17,10 @@
     <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
 	<iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
     <releaseNotes>
-		Bugfix release, with a few additional features:
-
-    * the user can disable built-in rules
-    * BackSpace, Tab, Home and several such keys can now be used in sequences
+		Fix a regression in generic Unicode input and several minor bugs.
 	</releaseNotes>
 	<dependencies>
-		<dependency id="wincompose.install" version="[0.8.1]" />
+		<dependency id="wincompose.install" version="[0.8.2]" />
 	</dependencies>
   </metadata>
   <files>
