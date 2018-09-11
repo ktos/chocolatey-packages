@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>nsbuilder.portable</id>
+    <title>NSBuilder</title>
+    <version>1.20180911-rd3a5d6d</version>
+    <authors>NSBuilder Authors</authors>
+    <owners>Marcin Badurowicz</owners>
+    <summary>Cross-platform application for creating and executing Nassi–Shneiderman diagrams </summary>
+    <description>NSBuilder is an cross-platform application for creating and executing Nassi–Shneiderman diagrams useful in introduction to programming.</description>
+    <projectUrl>https://github.com/nsbuilder-hub/nsbuilder</projectUrl>
+    <tags>nsbuilder ns nassi shneiderman diagram programming learn student</tags>
+    <copyright>Copyright (C) 2013-2018 NSBuilder Authors</copyright>
+    <licenseUrl>https://github.com/nsbuilder-hub/nsbuilder/blob/master/LICENSE.GPL</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
+	<iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/nsbuilder/nsbuilder.png</iconUrl>
+    <releaseNotes>
+		Fix showing array values - now as it should be, from indices 0 to n-1,
+		Fix default save directory - now it is the home path of the user,
+		Fix counter-intuitive descriptions for options in menu,
+		Add more accurate description of the Append button,
+		Remove unnecessary help button in Instruction Wizard,
+		Add keyboard shortcuts in instruction wizard and set Finish button as the default one.
+	</releaseNotes>	
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

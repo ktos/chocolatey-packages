@@ -1,0 +1,1 @@
+﻿# dummy file for wincompose virtual package
