@@ -4,7 +4,7 @@
   <metadata>
     <id>nsbuilder</id>
     <title>NSBuilder</title>
-    <version>1.20180911-rd3a5d6d</version>
+    <version>2018.9.11</version>
     <authors>NSBuilder Authors</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>Cross-platform application for creating and executing Nassi–Shneiderman diagrams </summary>
@@ -25,7 +25,7 @@
 		Add keyboard shortcuts in instruction wizard and set Finish button as the default one.
 	</releaseNotes>
 	<dependencies>
-		<dependency id="nsbuilder.install" version="[1.20180911-rd3a5d6d]" />
+		<dependency id="nsbuilder.install" version="[2018.9.11]" />
 	</dependencies>
   </metadata>
   <files>
