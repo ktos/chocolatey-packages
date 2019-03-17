@@ -1,7 +1,7 @@
 ﻿$packageName = 'wincompose.portable'
 $installerType = 'EXE'
-$url = 'https://github.com/samhocevar/wincompose/releases/download/v0.8.2/WinCompose-NoInstall-0.8.2.zip'
-$checksum = 'B45CAC575FC5EA105D0560D85567A56BF921A15753DD1FA10B075410107BDF1D'
+$url = 'https://github.com/samhocevar/wincompose/releases/download/v0.9.0/WinCompose-NoInstall-0.9.0.zip'
+$checksum = 'E606975748FCB9F67A11EE810C49A81950A0FC131444398C76953366515C0947'
 $validExitCodes = @(0)
 
 $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
