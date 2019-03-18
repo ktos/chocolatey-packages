@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.install</id>
     <title>WinCompose (install)</title>
-    <version>0.9.0</version>
+    <version>0.9.1-beta20190318</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -15,17 +15,8 @@
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
-	<iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes>
-		* WinCompose now attempts to run with elevated privileges, to fix incompatibilities with various software that also runs with such privileges
-		* Fixed a regression in advanced Unicode input that was affecting QMK compatibility; now Enter is required at the end of such sequences
-		* A second, additional compose key can be configured
-		* The notification area icon can now be hidden
-		* The search filter was rewritten and is now a lot more usable
-		* New compose sequences for upcoming Emoji 12.0 standard
-		* Many UI improvements: a new interactive window to select the compose key, a slider to set the reset delay, new icons for the settings and sequences windows, various usability fixed here and there
-		* Sequences results can be copied to clipboard
-	</releaseNotes>
+	  <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
+    <releaseNotes>This beta release includes a tentative workaround for interference between WinCompose and the Japanese IME system.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
