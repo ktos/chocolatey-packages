@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.portable</id>
     <title>WinCompose (portable)</title>
-    <version>0.9.1-beta20190318</version>
+    <version>0.9.1-beta20190405</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -15,7 +15,7 @@
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>    
-    <releaseNotes>This beta release includes a tentative workaround for interference between WinCompose and the Japanese IME system.</releaseNotes>
+    <releaseNotes>This beta release fixes Windows XP startup issues and provides better error reporting when the application crashes.</releaseNotes>
 	<projectSourceUrl>https://github.com/samhocevar/wincompose/</projectSourceUrl>
 	<packageSourceUrl>https://github.com/ktos/chocolatey-packages/tree/master/wincompose.portable</packageSourceUrl>
 	<bugTrackerUrl>https://github.com/samhocevar/wincompose/issues</bugTrackerUrl>
