@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.portable</id>
     <title>WinCompose (portable)</title>
-    <version>0.9.1-beta20190805</version>
+    <version>0.9.3</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -15,7 +15,16 @@
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>    
-    <releaseNotes>This beta releases tries to fix various issues related to the AltGr key.</releaseNotes>
+    <releaseNotes>This bugfix release fixes two grave regressions:
+
+* unable to use the advanced Unicode input
+* using Left Control just after AltGr could cause the control key to remain stuck
+
+Also in this release:
+
+* new Ukrainian translation
+* allow WinCompose to run at logon even if another user uses it
+</releaseNotes>
 	<projectSourceUrl>https://github.com/samhocevar/wincompose/</projectSourceUrl>
 	<packageSourceUrl>https://github.com/ktos/chocolatey-packages/tree/master/wincompose.portable</packageSourceUrl>
 	<bugTrackerUrl>https://github.com/samhocevar/wincompose/issues</bugTrackerUrl>

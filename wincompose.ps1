@@ -21,6 +21,12 @@ $releaseNotes = $x.feed.entry[0].content.InnerText
 
 $releaseNotes = $releaseNotes.Replace("<p>", "")
 $releaseNotes = $releaseNotes.Replace("</p>", "")
+$releaseNotes = $releaseNotes.Replace("<li>", "* ")
+$releaseNotes = $releaseNotes.Replace("<ul>", "")
+$releaseNotes = $releaseNotes.Replace("</ul>", "")
+$releaseNotes = $releaseNotes.Replace("</li>", "")
+$releaseNotes = $releaseNotes.Replace("<kbd>", "")
+$releaseNotes = $releaseNotes.Replace("</kbd>", "")
 
 $version = $x.feed.entry[0].title.Replace("WinCompose ", "")
 
