@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.install</id>
     <title>WinCompose (install)</title>
-    <version>0.9.3</version>
+    <version>0.9.4</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -16,15 +16,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
 	  <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes>This bugfix release fixes two grave regressions:
+    <releaseNotes>This release fixes several bugs:
 
-* unable to use the advanced Unicode input
-* using Left Control just after AltGr could cause the control key to remain stuck
-
-Also in this release:
-
-* new Ukrainian translation
-* allow WinCompose to run at logon even if another user uses it
+* huge typing latency on some keyboards
+* Unicode input was broken in some situations
+* wrong language displayed in the installer
+* issues when the input language is set to Japanese
+* race condition preventing the icon from appearing sometimes
 </releaseNotes>
   </metadata>
   <files>
