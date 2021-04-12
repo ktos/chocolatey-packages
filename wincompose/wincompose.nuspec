@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose</id>
     <title>WinCompose</title>
-    <version>0.9.5</version>
+    <version>0.9.6</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -16,23 +16,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
 	  <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes>Improvements:
-
-better compatibility with GTK+ applications (Inkscape, The Gimp…) (#369)
-will not try to run with elevated privileges if not installed as administrator
-can use characters such as " \ \n as well as \0x2468 in custom sequences (#329)
-
-Multiple bugfixes:
-
-sometimes the compose key cannot be properly configured (#367)
-crash when the clipboard is locked by another process (#319)
-crash when Unicode sequences of more than 6 digits are typed (#335)
-the task scheduler would kill WinCompose after a long time (#316)
-would not work with the Japanese IME (#312)
-crash when pressing CtrlZ in the Option window test widget
-</releaseNotes>
+    <releaseNotes>This release fixes a regression with sequence priorities.</releaseNotes>
     <dependencies>
-      <dependency id="wincompose.install" version="[0.9.5]" />
+      <dependency id="wincompose.install" version="[0.9.6]" />
     </dependencies>
   </metadata>
   <files>
