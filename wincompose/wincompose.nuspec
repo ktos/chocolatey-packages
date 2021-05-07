@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose</id>
     <title>WinCompose</title>
-    <version>0.9.6</version>
+    <version>0.9.7</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -16,9 +16,20 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
 	  <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes>This release fixes a regression with sequence priorities.</releaseNotes>
+    <releaseNotes>Changes in this version:
+
+New: WinCompose can be configured to not run at startup
+Changed: the startup code was completely rewritten to try to address issues reported by multiple users
+Fix: swap_on_invalid feature was misbehaving
+New: Catalan and Afrikaans translations
+Fix: combining characters were badly rendered in compose sequences
+Fix: user macros containing \n would sometimes not work
+Changed: the “Disable” and “Restart” features were removed
+Changed: performance improvements in the sequence window scrolling
+Changed: .NET Framework 4.0 or later is now required
+</releaseNotes>
     <dependencies>
-      <dependency id="wincompose.install" version="[0.9.6]" />
+      <dependency id="wincompose.install" version="[0.9.7]" />
     </dependencies>
   </metadata>
   <files>
