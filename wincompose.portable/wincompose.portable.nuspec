@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose.portable</id>
     <title>WinCompose (portable)</title>
-    <version>0.9.7</version>
+    <version>0.9.8</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -15,18 +15,7 @@
     <licenseUrl>http://www.wtfpl.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>    
-    <releaseNotes>Changes in this version:
-
-New: WinCompose can be configured to not run at startup
-Changed: the startup code was completely rewritten to try to address issues reported by multiple users
-Fix: swap_on_invalid feature was misbehaving
-New: Catalan and Afrikaans translations
-Fix: combining characters were badly rendered in compose sequences
-Fix: user macros containing \n would sometimes not work
-Changed: the “Disable” and “Restart” features were removed
-Changed: performance improvements in the sequence window scrolling
-Changed: .NET Framework 4.0 or later is now required
-</releaseNotes>
+    <releaseNotes>This version adds more meaningful log messages for debugging purposes and fixes a bug where two instances of WinCompose would run in parallel.</releaseNotes>
 	<projectSourceUrl>https://github.com/samhocevar/wincompose/</projectSourceUrl>
 	<packageSourceUrl>https://github.com/ktos/chocolatey-packages/tree/master/wincompose.portable</packageSourceUrl>
 	<bugTrackerUrl>https://github.com/samhocevar/wincompose/issues</bugTrackerUrl>
