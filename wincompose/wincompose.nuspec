@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose</id>
     <title>WinCompose</title>
-    <version>0.9.8</version>
+    <version>0.9.10</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -16,9 +16,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
 	  <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes>This version adds more meaningful log messages for debugging purposes and fixes a bug where two instances of WinCompose would run in parallel.</releaseNotes>
+    <releaseNotes>This is a hotfix release for an annoying rendering issue in the options window.</releaseNotes>
     <dependencies>
-      <dependency id="wincompose.install" version="[0.9.8]" />
+      <dependency id="wincompose.install" version="[0.9.10]" />
     </dependencies>
   </metadata>
   <files>
