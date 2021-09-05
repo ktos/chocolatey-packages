@@ -4,7 +4,7 @@
   <metadata>
     <id>wincompose</id>
     <title>WinCompose</title>
-    <version>0.9.10</version>
+    <version>0.9.11</version>
     <authors>Sam Hocevar</authors>
     <owners>Marcin Badurowicz</owners>
     <summary>WinCompose - A compose key for Windows</summary>
@@ -16,9 +16,16 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <packageSourceUrl>https://github.com/ktos/chocolatey-packages</packageSourceUrl>
 	  <iconUrl>https://cdn.rawgit.com/ktos/chocolatey-packages/master/wincompose/wincompose.png</iconUrl>
-    <releaseNotes>This is a hotfix release for an annoying rendering issue in the options window.</releaseNotes>
+    <releaseNotes>This is a bugfix release:
+
+fix startup issue with missing System.ValueTuple.dll (#425)
+do not write debug messages to the log file (#420)
+address an issue where WinCompose may interfer with monitor sleep (#432)
+(maybe) fix an issue with the tooltip appearing at random times (#426, #350)
+fix erratic behaviour of Scroll Lock key (#321, #421, #393)
+</releaseNotes>
     <dependencies>
-      <dependency id="wincompose.install" version="[0.9.10]" />
+      <dependency id="wincompose.install" version="[0.9.11]" />
     </dependencies>
   </metadata>
   <files>

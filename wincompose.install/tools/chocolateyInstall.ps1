@@ -1,7 +1,7 @@
 $packageName = 'wincompose.install'
 $installerType = 'EXE'
-$url = 'https://github.com/samhocevar/wincompose/releases/download/v0.9.10/WinCompose-Setup-0.9.10.exe'
-$checksum = 'FC8AA4C3789C8A7148C07859D5C17764EC6673AA62039E9A7BCB1004FB7C6DE2'
+$url = 'https://github.com/samhocevar/wincompose/releases/download/v0.9.11/WinCompose-Setup-0.9.11.exe'
+$checksum = '125119D0335C64067E5AEA1E87781DF9DE6E6BA960FDCCD001B25D4D3BBBFADF'
 
 $silentArgs = '/SP- /VERYSILENT /NORESTART /SUPPRESSMSGBOXES'
 $silentArgsUninstall = '/VERYSILENT /NORESTART'
